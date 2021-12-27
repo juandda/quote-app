@@ -1,0 +1,32 @@
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EAEAEA;
+    width: 65%;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+.quote-container span{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.quote-container h3{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0px;
+}
+.quote-container h4{
+    font-family: 'Dancing Script', cursive;
+    align-self: flex-start;
+    padding-left: 15px;
+    margin: 0px;
+}
+.quote-container button{
+    border: none;
+    background-color: #EAEAEA;
+    font-size: 45px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
